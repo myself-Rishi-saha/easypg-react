@@ -62,8 +62,8 @@ const FilterModal = ({
                 type="radio"
                 name="gender"
                 value="boys pg"
-                checked={gender === "boys pg"}
-                onChange={(e) => setGender(e.target.value)}
+              //  checked={gender === "boys pg"}
+                //onChange={(e) => setGender(e.target.value)}
                 className="mr-2 accent-blue-500"
               />
               <FaMale className="text-blue-500 mr-2" /> Boys PG
@@ -73,8 +73,8 @@ const FilterModal = ({
                 type="radio"
                 name="gender"
                 value="girls pg"
-                checked={gender === "girls pg"}
-                onChange={(e) => setGender(e.target.value)}
+            //    checked={gender === "girls pg"}
+               // onChange={(e) => setGender(e.target.value)}
                 className="mr-2 accent-pink-500"
               />
               <FaFemale className="text-pink-500 mr-2" /> Girls PG
@@ -84,8 +84,8 @@ const FilterModal = ({
                 type="radio"
                 name="gender"
                 value="coed pg"
-                checked={gender === "coed pg"}
-                onChange={(e) => setGender(e.target.value)}
+               // checked={gender === "coed pg"}
+              //  onChange={(e) => setGender(e.target.value)}
                 className="mr-2 accent-green-500"
               />
               <FaUserFriends className="text-green-500 mr-2" /> Co-ed PG
@@ -95,8 +95,8 @@ const FilterModal = ({
                 type="radio"
                 name="gender"
                 value=""
-                checked={gender === ""}
-                onChange={(e) => setGender("")}
+               // checked={gender === ""}
+             //   onChange={(e) => setGender("")}
                 className="mr-2 accent-gray-500"
               />
               <span className="text-gray-500 mr-2">🌐</span> Any
