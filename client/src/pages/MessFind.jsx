@@ -132,6 +132,7 @@ const MessFind = () => {
   const [tempCheckFeatures, setTempCheckFeatures] = useState([]);
   const [coordinates, setCoordinates] = useState({ lat: 0, lng: 0 });
   const [pgCount, setPgCount] = useState(0);
+  const [gender, setGender] = useState("");
 
   let debounceTimeout;
 
@@ -342,6 +343,8 @@ const MessFind = () => {
         amenities={amenities}
         featureChanges={featureChanges}
         onApplyFilters={onApplyFilters}
+        gender={gender}
+        setGender={setGender}
       />
     </div>
   );
