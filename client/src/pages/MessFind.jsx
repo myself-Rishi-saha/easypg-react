@@ -16,6 +16,8 @@ const FilterModal = ({
   amenities,
   featureChanges,
   onApplyFilters,
+  gender,
+  setGender
 }) => {
   if (!isOpen) return null;
   return (
